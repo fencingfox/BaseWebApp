@@ -1,4 +1,6 @@
 <html lang="en">
+  <% include ../helpers/styleimports %>
+
   <header>
       <% include ../helpers/navbar %>
   </header>
@@ -10,10 +12,21 @@
 
     <body>
 
-      <!-- the classes 'page-header' and 'btn btn-default' create bootstrap components.  -->
-      <!-- Check out more components here: http://getbootstrap.com/components/ -->
-      <div class="page-header">
-        <h1>Projects</h1>
+      <div class="jumbotron jumbotron-center">
+          <h1>Projects</h1>
+          <p class="lead">
+            Here are some public projects I'm working on.
+          </p>
+      </div>
+
+
+      <div class="container">
+          <div class="code-container">
+            <img src="/images/webpage.jpg"/>
+            <div>
+              <h3>This Webpage</h3>
+              <p>I learned more Javascript, HTML, CSS and how to use Node.</p>
+          </div>
       </div>
 
     </body>
