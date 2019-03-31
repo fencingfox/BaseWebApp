@@ -1,32 +1,36 @@
 <html lang="en">
-
-<!--This is best practice but it doesn't matter that much-->
-<header>
+  <header>
     <% include ../helpers/navbar %>
-</header>
+  </header>
+    
+  <main>
+    <head>
+      <% include ../helpers/head %>
+    </head>
 
-<head>
-    <% include ../helpers/head %>
-</head>
+    <body>
 
-<body>
+      <!-- the classes 'page-header' and 'btn btn-default' create bootstrap components.  -->
+      <!-- Check out more components here: http://getbootstrap.com/components/ -->
+      <div class="page-header">
+        <div class="jumbotron">
+            <h1>Alissa Tinney</h1>
+            <p class="lead">
+              Welcome to my personal webpage.
+            </p>
+        </div>
+      </div>
 
-  <!-- the classes 'page-header' and 'btn btn-default' create bootstrap components.  -->
-  <!-- Check out more components here: http://getbootstrap.com/components/ -->
-  <div class="page-header">
-    <h1>Changes here</h1>
-  </div>
 
-  <p id="demo">
-    This is me testing out a lil html file
-  </p>
+    <!--
+      <button class="btn btn-default" type="button" onclick="myFunction()">
+        Try it
+      </button>
 
-  <button class="btn btn-default" type="button" onclick="myFunction()">
-    Try it
-  </button>
+      <div id="doge-image"/>-->
 
-  <div id="doge-image"/>
+    </body>
 
-</body>
+  </main>
 
 </html>
